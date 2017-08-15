@@ -19,6 +19,10 @@ Route::get('test1/{id}' , function(Conference $id){
 Route::get('test2' , function(){
     return 'this is tes 2';
 });
+
+Route::get('test3' , function(){
+    return 'this is tes 3';
+});
 Route::get('home1' ,'TestController@test1');
 
 Route::get('/', function () {
